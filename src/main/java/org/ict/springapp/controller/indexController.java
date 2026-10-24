@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class indexController {
   @GetMapping("/")
   public String index() {
-    return "Hello World Spring Boot Application";
+    return "Hello World Spring Boot Application good job";
   }
 }
